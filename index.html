@@ -1,51 +1,81 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
-  <title>Parkash Chander Portfolio</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Parkash Chander - Tech Explorer, Learner, Creator">
+  <meta name="keywords" content="Parkash, Portfolio, Developer, Tech">
+  <meta name="author" content="Parkash Chander">
+  <title>Parkash Chander | Portfolio</title>
   <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;500;700&display=swap" rel="stylesheet">
+  <link rel="icon" href="profile.png">
+  <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+  <link href="https://unpkg.com/aos@next/dist/aos.css" rel="stylesheet">
 </head>
-
 
 <body>
   <header class="hero">
-    <div class="container">
-      <img src="profile.png" alt="Parkash Chander" class="profile-pic">
-      <h1>Parkash Chander</h1>
-      <p>Frontend Explorer | Web Dev Learner | Passionate Creator</p>
-      <div class="social-links">
-        <a href="mailto:parkashchandereducation@gmail.com"><i class="fas fa-envelope"></i></a>
-        <a href="https://www.instagram.com/_p_a_r_k_a_s_h_/" target="_blank"><i class="fab fa-instagram"></i></a>
-        <a href="https://youtube.com/@techwithme501" target="_blank"><i class="fab fa-youtube"></i></a>
-      </div>
+    <img src="profile.png" alt="Parkash Chander" class="profile-pic">
+    <h1>Parkash Chander</h1>
+    <p class="tagline">Tech Explorer | Learner | Creator</p>
+    <div class="button-links">
+      <a href="mailto:parkashchandereducation@gmail.com" class="btn">📧 Email Me</a>
+      <a href="https://www.instagram.com/_p_a_r_k_a_s_h_/" target="_blank" class="btn">📷 Instagram</a>
+      <a href="https://youtube.com/@techwithme501" target="_blank" class="btn">📺 YouTube</a>
+      <a href="https://github.com/parkashchander" target="_blank" class="btn">🐙 GitHub</a>
     </div>
   </header>
 
-  <section id="about">
+  <section id="about" data-aos="fade-up">
     <div class="container">
       <h2>About Me</h2>
-      <p>Hi, I'm Parkash — a self-taught tech enthusiast with a love for design, animation, and the power of the web. Currently exploring the world of front-end development and building interactive, beautiful websites. I believe in growth, curiosity, and helping others level up.</p>
+      <p>I’m Parkash Chander, a 19-year-old tech enthusiast from Haridwar. I love exploring tech, learning new tools, and turning ideas into powerful websites and apps. From cybersecurity to content creation, I enjoy building stuff and sharing it with the world.</p>
     </div>
   </section>
 
-  <section id="contact">
+  <section id="projects" data-aos="fade-up">
     <div class="container">
-      <h2>Contact</h2>
-      <p>You can reach out to me via:</p>
-      <ul>
-        <li>Email: <a href="mailto:parkashchandereducation@gmail.com">parkashchandereducation@gmail.com</a></li>
-        <li>Instagram: <a href="https://www.instagram.com/_p_a_r_k_a_s_h_/" target="_blank">@_p_a_r_k_a_s_h_</a></li>
-        <li>YouTube: <a href="https://youtube.com/@techwithme501" target="_blank">@techwithme501</a></li>
-      </ul>
+      <h2>Projects</h2>
+      <div class="project-card">
+        <h3>Solar System Project</h3>
+        <iframe src="https://solarsystem.nasa.gov/" title="Solar System Project"></iframe>
+        <p>This project explores the structure and beauty of our solar system. Built using interactive tech & web design inspiration.</p>
+        <a href="https://solarsystem.nasa.gov/" target="_blank" class="btn">🔗 View Project</a>
+      </div>
+      <div class="project-card">
+        <h3>More Projects Coming Soon...</h3>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" data-aos="fade-up">
+    <div class="container">
+      <h2>Skills</h2>
+      <p>💻 HTML, CSS, C, C++, JavaScript<br>🧠 Cybersecurity Basics<br>📹 Content Creation<br>🎨 Web Designing & UI</p>
+    </div>
+  </section>
+
+  <section id="contact" data-aos="fade-up">
+    <div class="container">
+      <h2>Contact Me</h2>
+      <p>Email: <a href="mailto:parkashchandereducation@gmail.com">parkashchandereducation@gmail.com</a></p>
+      <p>Instagram: <a href="https://www.instagram.com/_p_a_r_k_a_s_h_/" target="_blank">_p_a_r_k_a_s_h_</a></p>
+      <p>YouTube: <a href="https://youtube.com/@techwithme501" target="_blank">@techwithme501</a></p>
+      <p><a href="mailto:parkashchandereducation@gmail.com" class="btn">📬 Send Me a Message</a></p>
     </div>
   </section>
 
   <footer>
-    <p>© 2025 Parkash Chander. All rights reserved.</p>
+    &copy; 2025 Parkash Chander. All rights reserved.
   </footer>
+
+  <script>
+    AOS.init();
+  </script>
 </body>
 
-
 </html>
-
-
