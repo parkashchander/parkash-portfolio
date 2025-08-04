@@ -21,6 +21,29 @@ body {
   padding: 40px 0;
 }
 
+nav.navbar {
+  position: sticky;
+  top: 0;
+  background-color: #111;
+  padding: 15px 0;
+  z-index: 999;
+  text-align: center;
+  border-bottom: 1px solid #222;
+}
+
+nav.navbar a {
+  color: #f39041;
+  margin: 0 15px;
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 16px;
+  transition: 0.3s ease-in-out;
+}
+
+nav.navbar a:hover {
+  color: #fff;
+}
+
 header.hero {
   background: linear-gradient(to bottom, #1b1b1b, #0a0a0a);
   text-align: center;
@@ -45,17 +68,6 @@ header p {
   color: #f39041;
   font-size: 18px;
   margin-top: 10px;
-}
-
-.social-links a {
-  color: white;
-  margin: 0 10px;
-  font-size: 22px;
-  transition: color 0.3s;
-}
-
-.social-links a:hover {
-  color: #f39041;
 }
 
 .button-links {
